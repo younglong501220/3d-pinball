@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer base {
+  html,
+  body,
+  #root {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: radial-gradient(circle at 50% 25%, #191738 0%, #090a18 65%, #04040a 100%);
+    font-family: 'Plus Jakarta Sans', 'Segoe UI', system-ui, sans-serif;
+  }
+}
+
+.font-arcade-display {
+  font-family: 'Chakra Petch', 'Impact', 'Arial Black', sans-serif;
+}
+
+.font-arcade-led {
+  font-family: 'JetBrains Mono', 'Courier New', monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+.backglass-scanlines {
+  background-image:
+    repeating-linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.035) 0px,
+      rgba(255, 255, 255, 0.035) 1px,
+      transparent 1px,
+      transparent 3px
+    ),
+    linear-gradient(180deg, #271033 0%, #110b24 55%, #090717 100%);
+}
+
+.modal-scanlines {
+  background-image:
+    repeating-linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.025) 0px,
+      rgba(255, 255, 255, 0.025) 1px,
+      transparent 1px,
+      transparent 3px
+    ),
+    linear-gradient(165deg, #271038 0%, #100b24 100%);
+}

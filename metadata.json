@@ -1,0 +1,8 @@
+{
+  "name": "NEON STRIKE ★ 3D Pinball",
+  "description": "Retro American arcade 3D pinball machine with 120Hz Cannon-es physics, interactive bumpers, spark particles, and color-cycling neon tubes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
